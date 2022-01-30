@@ -520,7 +520,7 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"aenu9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-var _webImmediateJs = require("core-js/modules/web.immediate.js"); // model.bubbleSort();
+var _webImmediateJs = require("core-js/modules/web.immediate.js");
 var _modelJs = require("./model.js");
 var _sortViewJs = require("./views/sortView.js");
 var _sortViewJsDefault = parcelHelpers.interopDefault(_sortViewJs);
@@ -548,10 +548,8 @@ const controlShuffleArray = function() {
 const controlSortArray = function() {
     // model["bubbleSort"]();
     _modelJs[`${_modelJs.state.currentAlg}`]();
-    _sortViewJsDefault.default.newUpdate(_modelJs.state.arrayAnimations);
+    _sortViewJsDefault.default.renderAnimations(_modelJs.state.arrayAnimations);
     _modelJs.clearArrayAnimation();
-// model.updateDOM();
-// sortView.update(model.state.array);
 };
 const init = function() {
     controlCreateArray();
@@ -559,6 +557,7 @@ const init = function() {
     _buttonsViewJsDefault.default.addHandlerButtonShuffle(controlShuffleArray);
 };
 init();
+console.log("siuuuu");
 
 },{"core-js/modules/web.immediate.js":"49tUX","./model.js":"Y4A21","./views/sortView.js":"hucv9","regenerator-runtime/runtime":"dXNgZ","regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./views/buttonsView.js":"g7qU8"}],"49tUX":[function(require,module,exports) {
 var $ = require('../internals/export');
@@ -2248,8 +2247,8 @@ parcelHelpers.export(exports, "NUM_ELEMENTS", ()=>NUM_ELEMENTS
 );
 parcelHelpers.export(exports, "ANIMATION_SPEED_MS", ()=>ANIMATION_SPEED_MS
 );
-const NUM_ELEMENTS = 50;
-const ANIMATION_SPEED_MS = 5;
+const NUM_ELEMENTS = 10;
+const ANIMATION_SPEED_MS = 2;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
@@ -2287,24 +2286,28 @@ parcelHelpers.defineInteropFlag(exports);
 var _configJs = require("../config.js");
 class SortView {
     _parentElement = document.querySelector(".container--sort");
-    heightContainer = this._parentElement.style.getPropertyValue("height");
-    // console.log(heightContainer);
+    _heightContainer = Number.parseFloat(getComputedStyle(this._parentElement).height, 10);
+    _heightPerElement = this._heightContainer / _configJs.NUM_ELEMENTS;
+    _widthContainer = Number.parseFloat(getComputedStyle(this._parentElement).width, 10);
+    _widthPerElement = this._widthContainer / _configJs.NUM_ELEMENTS;
     _data;
     render(data) {
         this._data = data;
         const markup = this._generateMarkup(data);
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
     }
-    newUpdate(arrAnimation) {
+    renderAnimations(arrAnimation) {
         const allEl = [
             ...document.querySelectorAll(".element")
         ];
         console.log(allEl);
+        console.log(this._widthContainer);
+        console.log(this._widthPerElement);
         arrAnimation.forEach((mov, i)=>{
             setTimeout(function() {
                 let el1 = Number.parseFloat(allEl[mov[0]].style.height, 10);
                 let el2 = Number.parseFloat(allEl[mov[1]].style.height, 10);
-                console.log(i);
+                // console.log(i);
                 [allEl[mov[0]].style.height, allEl[mov[1]].style.height] = [
                     `${el2}px`,
                     `${el1}px`, 
@@ -2312,44 +2315,31 @@ class SortView {
             }, i * _configJs.ANIMATION_SPEED_MS);
         });
     }
-    // update(data) {
-    //   this._data = data;
-    //   const newMarkup = this._generateMarkup(data);
-    //   const newDOM = document.createRange().createContextualFragment(newMarkup);
-    //   const newElements = Array.from(newDOM.querySelectorAll("*"));
-    //   const curElements = Array.from(this._parentElement.querySelectorAll("*"));
-    //   newElements.forEach((newEl, i) => {
-    //     const curEl = curElements[i];
-    //     // console.log(curEl, newEl.isEqualNode(curEl));
-    //     // Updates changed TEXT
-    //     if (
-    //       !newEl.isEqualNode(curEl) &&
-    //       newEl.firstChild?.nodeValue.trim() !== ""
-    //     ) {
-    //       // console.log('-----------------', newEl.firstChild?.nodeValue.trim());
-    //       curEl.style.height = newEl.style.height;
-    //     }
-    //     // Updates changed ATTRIBUTES
-    //     if (!newEl.isEqualNode(curEl)) {
-    //       Array.from(newEl.attributes).forEach((attr) =>
-    //         curEl.setAttribute(attr.name, attr.value)
-    //       );
-    //     }
-    //   });
-    // }
     _generateMarkup(arr) {
         return arr.map((el)=>this._generateMarkupElement(el)
         ).join("");
     }
     _generateMarkupElement(indexArr) {
-        const heightContainer = Number.parseFloat(getComputedStyle(this._parentElement).height, 10);
-        const heightPerElement = heightContainer / _configJs.NUM_ELEMENTS;
-        const widthContainer = Number.parseFloat(getComputedStyle(this._parentElement).width, 10);
-        const widthPerElement = widthContainer / _configJs.NUM_ELEMENTS;
-        console.log("heightContainer", heightContainer);
-        console.log("heightPerElement: ", heightPerElement);
         return `
-      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width: ${widthPerElement}px; height: ${(indexArr + 1) * heightPerElement}px ;"></div>`;
+      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width:
+       ${this._widthPerElement}px; height: ${(indexArr + 1) * this._heightPerElement}px ;"></div>`;
+    }
+    update(data) {
+        this._data = data;
+        const newMarkup = this._generateMarkup(data);
+        const newDOM = document.createRange().createContextualFragment(newMarkup);
+        const newElements = Array.from(newDOM.querySelectorAll("*"));
+        const curElements = Array.from(this._parentElement.querySelectorAll("*"));
+        newElements.forEach((newEl, i)=>{
+            const curEl = curElements[i];
+            // console.log(curEl, newEl.isEqualNode(curEl));
+            // Updates changed TEXT
+            if (!newEl.isEqualNode(curEl) && newEl.firstChild?.nodeValue.trim() !== "") // console.log('-----------------', newEl.firstChild?.nodeValue.trim());
+            curEl.style.height = newEl.style.height;
+            // Updates changed ATTRIBUTES
+            if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach((attr)=>curEl.setAttribute(attr.name, attr.value)
+            );
+        });
     }
 }
 exports.default = new SortView();

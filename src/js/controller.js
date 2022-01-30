@@ -30,10 +30,8 @@ const controlShuffleArray = function () {
 const controlSortArray = function () {
   // model["bubbleSort"]();
   model[`${model.state.currentAlg}`]();
-  sortView.newUpdate(model.state.arrayAnimations);
+  sortView.renderAnimations(model.state.arrayAnimations);
   model.clearArrayAnimation();
-  // model.updateDOM();
-  // sortView.update(model.state.array);
 };
 
 const init = function () {
@@ -43,4 +41,4 @@ const init = function () {
 };
 
 init();
-// model.bubbleSort();
+console.log("siuuuu");
