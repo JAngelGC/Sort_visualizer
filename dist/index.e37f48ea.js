@@ -2248,8 +2248,8 @@ parcelHelpers.export(exports, "NUM_ELEMENTS", ()=>NUM_ELEMENTS
 );
 parcelHelpers.export(exports, "ANIMATION_SPEED_MS", ()=>ANIMATION_SPEED_MS
 );
-const NUM_ELEMENTS = 10;
-const ANIMATION_SPEED_MS = 10;
+const NUM_ELEMENTS = 50;
+const ANIMATION_SPEED_MS = 5;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
@@ -2287,6 +2287,8 @@ parcelHelpers.defineInteropFlag(exports);
 var _configJs = require("../config.js");
 class SortView {
     _parentElement = document.querySelector(".container--sort");
+    heightContainer = this._parentElement.style.getPropertyValue("height");
+    // console.log(heightContainer);
     _data;
     render(data) {
         this._data = data;
@@ -2300,12 +2302,12 @@ class SortView {
         console.log(allEl);
         arrAnimation.forEach((mov, i)=>{
             setTimeout(function() {
-                let el1 = Number.parseInt(allEl[mov[0]].style.height, 10);
-                let el2 = Number.parseInt(allEl[mov[1]].style.height, 10);
+                let el1 = Number.parseFloat(allEl[mov[0]].style.height, 10);
+                let el2 = Number.parseFloat(allEl[mov[1]].style.height, 10);
                 console.log(i);
                 [allEl[mov[0]].style.height, allEl[mov[1]].style.height] = [
-                    `${el2}%`,
-                    `${el1}%`, 
+                    `${el2}px`,
+                    `${el1}px`, 
                 ];
             }, i * _configJs.ANIMATION_SPEED_MS);
         });
@@ -2340,8 +2342,14 @@ class SortView {
         ).join("");
     }
     _generateMarkupElement(indexArr) {
+        const heightContainer = Number.parseFloat(getComputedStyle(this._parentElement).height, 10);
+        const heightPerElement = heightContainer / _configJs.NUM_ELEMENTS;
+        const widthContainer = Number.parseFloat(getComputedStyle(this._parentElement).width, 10);
+        const widthPerElement = widthContainer / _configJs.NUM_ELEMENTS;
+        console.log("heightContainer", heightContainer);
+        console.log("heightPerElement: ", heightPerElement);
         return `
-      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width: 10%; height: ${(indexArr + 1) * _configJs.NUM_ELEMENTS / _configJs.NUM_ELEMENTS}%;"></div>`;
+      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width: ${widthPerElement}px; height: ${(indexArr + 1) * heightPerElement}px ;"></div>`;
     }
 }
 exports.default = new SortView();

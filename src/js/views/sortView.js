@@ -2,6 +2,8 @@ import { ANIMATION_SPEED_MS, NUM_ELEMENTS } from "../config.js";
 
 class SortView {
   _parentElement = document.querySelector(".container--sort");
+  heightContainer = this._parentElement.style.getPropertyValue("height");
+  // console.log(heightContainer);
   _data;
 
   render(data) {
@@ -16,14 +18,14 @@ class SortView {
 
     arrAnimation.forEach((mov, i) => {
       setTimeout(function () {
-        let el1 = Number.parseInt(allEl[mov[0]].style.height, 10);
+        let el1 = Number.parseFloat(allEl[mov[0]].style.height, 10);
 
-        let el2 = Number.parseInt(allEl[mov[1]].style.height, 10);
+        let el2 = Number.parseFloat(allEl[mov[1]].style.height, 10);
 
         console.log(i);
         [allEl[mov[0]].style.height, allEl[mov[1]].style.height] = [
-          `${el2}%`,
-          `${el1}%`,
+          `${el2}px`,
+          `${el1}px`,
         ];
       }, i * ANIMATION_SPEED_MS);
     });
@@ -65,12 +67,27 @@ class SortView {
   }
 
   _generateMarkupElement(indexArr) {
+    const heightContainer = Number.parseFloat(
+      getComputedStyle(this._parentElement).height,
+      10
+    );
+    const heightPerElement = heightContainer / NUM_ELEMENTS;
+
+    const widthContainer = Number.parseFloat(
+      getComputedStyle(this._parentElement).width,
+      10
+    );
+
+    const widthPerElement = widthContainer / NUM_ELEMENTS;
+
+    console.log("heightContainer", heightContainer);
+    console.log("heightPerElement: ", heightPerElement);
     return `
       <div class="element" style="left: ${
         indexArr * NUM_ELEMENTS
-      }%; width: 10%; height: ${
-      ((indexArr + 1) * NUM_ELEMENTS) / NUM_ELEMENTS
-    }%;"></div>`;
+      }%; width: ${widthPerElement}px; height: ${
+      (indexArr + 1) * heightPerElement
+    }px ;"></div>`;
   }
 }
 
