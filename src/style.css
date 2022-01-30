@@ -56,10 +56,13 @@ body {
 .title--header {
   font-size: 4.4rem;
   font-weight: 600;
+
+  /* background-color: cadetblue; */
 }
 
 .options {
   font-size: 3.6rem;
+  /* background-color: cadetblue; */
 }
 
 /* ******************************* */
@@ -96,11 +99,15 @@ body {
   font-size: 7.4rem;
   text-align: center;
   color: #fff;
+
+  /* background-color: blue; */
 }
 
 .container--sort {
   /* background: #000; */
-  height: 70%;
+  height: 80%;
+  max-height: 80%;
+  /* height: 1000px; */
   width: 100%;
   /* padding-bottom: 100px; */
 
@@ -113,12 +120,13 @@ body {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border: 3px solid rgba(0, 0, 0, 0.075);
 
-  transition: all 1s ease-in-out;
+  /* transition: all 1s ease-in-out; */
 }
 
 .container--icons {
+  /* background-color: aquamarine; */
   height: 15%;
-  padding-top: 2.4rem;
+  /* padding-top: 2.4rem; */
   /* padding-bottom: 10rem; */
   display: flex;
   justify-content: center;
@@ -127,6 +135,7 @@ body {
 }
 
 .icon {
+  /* background-color: brown; */
   color: #fff;
   font-size: 5.6rem;
 }
