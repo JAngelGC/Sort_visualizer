@@ -68,9 +68,7 @@ class SortView {
     return `
       <div class="element" style="left: ${
         indexArr * NUM_ELEMENTS
-      }%; width: 10%; height: ${
-      ((indexArr + 1) * NUM_ELEMENTS) / NUM_ELEMENTS
-    }%;"></div>`;
+      }%; width: 10%; height: ${(indexArr + 1) * NUM_ELEMENTS}%;"></div>`;
   }
 }
 

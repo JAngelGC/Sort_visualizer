@@ -2248,7 +2248,7 @@ parcelHelpers.export(exports, "NUM_ELEMENTS", ()=>NUM_ELEMENTS
 );
 parcelHelpers.export(exports, "ANIMATION_SPEED_MS", ()=>ANIMATION_SPEED_MS
 );
-const NUM_ELEMENTS = 10;
+const NUM_ELEMENTS = 100;
 const ANIMATION_SPEED_MS = 10;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
@@ -2341,7 +2341,7 @@ class SortView {
     }
     _generateMarkupElement(indexArr) {
         return `
-      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width: 10%; height: ${(indexArr + 1) * _configJs.NUM_ELEMENTS / _configJs.NUM_ELEMENTS}%;"></div>`;
+      <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width: 10%; height: ${(indexArr + 1) * _configJs.NUM_ELEMENTS}%;"></div>`;
     }
 }
 exports.default = new SortView();

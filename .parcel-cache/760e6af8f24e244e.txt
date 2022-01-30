@@ -1,4 +1,4 @@
-12445
+12446
 163C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\abortcontroller-polyfill132878850101663348 1
 163C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@swc\helpers\lib\_jsx.js132878850105988472 0
 147C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lowlight132878850096813343 1
@@ -39,12 +39,21 @@
 163C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\safe-buffer\package.json132878850093093342 0
 187C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\permissions-policy.js132878850118184558 0
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\highlight.js\lib\languages\bash.js132878850109728471 0
-130C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist132880413163942925 1
+130C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist132880426892676279 1
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\workers\src\cpuCount.js132878850100933339 0
 159C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\json5\lib\require.js132878850099203346 0
 185C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\hash\parcel-hash.linux-arm64-musl.node132878850104708469 0
 188C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\css-backdrop-filter.js132878850110168483 0
 146C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\foreach132878850097983379 1
+172C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\entities\lib\encode-trie.d.ts.map132878850102733346 0
+169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\watcher\src\DirTree.hh132878850103558468 0
+160C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\object-is\polyfill.js132878850099703358 0
+169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2020\InLeapYear.js132878850114864559 0
+164C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\prefixIds.js132878850105888466 0
+141C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\bl132878850100013362 1
+167C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-to-primitive\package.json132878850101033349 0
+166C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-normalize-positions132878850094613339 1
+136C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\.gitignore132880423407086836 0
 162C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\features\regexp132878850136744558 1
 158C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\stable\package.json132878850090303340 0
 157C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\slice-ansi\license132878850090603355 0
@@ -61,11 +70,6 @@
 175C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\features\array\virtual\at.js132878850109878466 0
 154C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\browserify-sign132878850099703358 1
 138C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules132878850072433351 1
-199C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ansi-escapes\node_modules\type-fest\source\package-json.d.ts132878850104278480 0
-155C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\has\package.json132878850090463347 0
-161C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\querystring\History.md132878850095643341 0
-150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lmdb\mod.ts132878850115494570 0
-142C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\config.js132880413162970724 0
 150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lodash.uniq132878850094183354 1
 148C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\call-bind132878850100403353 1
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\modules\es.string.blink.js132878850116864577 0
@@ -76,7 +80,7 @@
 148C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\is-bigint132878850099523364 1
 160C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\resolve-from\index.js132878850091703359 0
 164C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\csso\lib\replace\property132878850105018460 1
-139C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\style.css132880404664241001 0
+139C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\style.css132880421387196152 0
 174C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\features\instance\reduce.js132878850132264560 0
 162C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\queue-microtask\LICENSE132878850090363346 0
 153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\balanced-match132878850095183365 1
@@ -102,6 +106,11 @@
 177C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\features\array\virtual\keys.js132878850129024562 0
 183C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-modules-extract-imports\CHANGELOG.md132878850095953364 0
 160C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-minify-params132878850094613339 1
+199C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ansi-escapes\node_modules\type-fest\source\package-json.d.ts132878850104278480 0
+155C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\has\package.json132878850090463347 0
+161C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\querystring\History.md132878850095643341 0
+150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lmdb\mod.ts132878850115494570 0
+142C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\config.js132880426856664206 0
 182C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\highlight.js\scss\atelier-estuary-dark.scss132878850114039424 0
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2018\HasOwnProperty.js132878850114424570 0
 168C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\removeViewBox.js132878850107518466 0
@@ -115,9 +124,6 @@
 172C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\highlight.js\lib\languages\cal.js132878850109888479 0
 174C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\actual\typed-array\index.js132878850126124563 0
 142C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\helper.js132878739318083198 0
-156C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lowlight\index.js132878850093953352 0
-159C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\lib\svgo\coa.js132878850102003364 0
-150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\cipher-base132878850098053355 1
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\removeRasterImages.js132878850107078467 0
 141C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\model.js132880412793744086 0
 144C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\bytes132878850095393361 1
@@ -127,7 +133,7 @@
 163C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\which-typed-array\.nycrc132878850094463349 0
 157C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\elliptic\README.md132878850103113352 0
 154C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\globals\license132878850090703355 0
-150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\views\sortView.js132880408039535451 0
+150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\src\js\views\sortView.js132880426760355687 0
 163C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-api\package.json132878850090403339 0
 166C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\htmlnano\lib\presets\max.js132878850101503355 0
 147C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@nodelib132878850072353338 1
@@ -278,12 +284,6 @@
 171C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\string.prototype.trimend\shim.js132878850100473350 0
 153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ejs\bin\cli.js132878850100613352 0
 144C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\async132878850098943344 1
-172C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\entities\lib\encode-trie.d.ts.map132878850102733346 0
-169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\watcher\src\DirTree.hh132878850103558468 0
-160C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\object-is\polyfill.js132878850099703358 0
-169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2020\InLeapYear.js132878850114864559 0
-164C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\prefixIds.js132878850105888466 0
-141C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\bl132878850100013362 1
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\is-generator-function\package.json132878850099673338 0
 146C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\process132878850097473371 1
 185C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2020\EnumerableOwnPropertyNames.js132878850112648487 0
@@ -370,6 +370,9 @@
 153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ejs\ejs.min.js132878850097923352 0
 181C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2017\OrdinarySetPrototypeOf.js132878850119244564 0
 169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\xxhash-wasm\umd\xxhash-wasm.js132878850094773340 0
+156C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\lowlight\index.js132878850093953352 0
+159C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\lib\svgo\coa.js132878850102003364 0
+150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\cipher-base132878850098053355 1
 167C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\watcher\package.json132878850105168468 0
 198C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ansi-escapes\node_modules\type-fest\source\typed-array.d.ts132878850105878482 0
 157C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\nan\doc\buffers.md132878850104888475 0
@@ -747,7 +750,7 @@
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\regions\SL.js132878850119474569 0
 158C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\semver\package.json132878850096493347 0
 150C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\emoji-regex132878850096943362 1
-148C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.e37f48ea.js132880413163922945 0
+148C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.e37f48ea.js132880426857656715 0
 157C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\mime-db\HISTORY.md132878850096183356 0
 202C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\package-manager\test\fixtures\packages\foo-2.0\index.js132878850100993352 0
 152C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\requires-port132878850097153351 1
@@ -1665,8 +1668,6 @@
 176C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-abstract\2020\Number\unaryMinus.js132878850124624547 0
 161C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-modules-values132878850095683361 1
 164C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-normalize-charset132878850094613339 1
-167C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\es-to-primitive\package.json132878850101033349 0
-166C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-normalize-positions132878850094613339 1
 169C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-normalize-repeat-style132878850096003361 1
 173C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\traverse\lib\path\generated132878850101853359 1
 159C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ws\lib\validation.js132878850101143359 0
@@ -3008,8 +3009,8 @@
 159C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\randombytes\index.js132878850095753342 0
 174C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\modules\es.date.set-year.js132878850115544568 0
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\removeEmptyText.js132878850106768472 0
-211C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\stream-http\node_modules\readable-stream\lib\internal\streams\destroy.js132878850100103368 0
 172C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\removeHiddenElems.js132878850106828459 0
+211C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\stream-http\node_modules\readable-stream\lib\internal\streams\destroy.js132878850100103368 0
 185C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\postcss-normalize-display-values\dist\index.js132878850092133354 0
 168C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\ncp\test\symlink-fixtures\src132878850103538457 1
 185C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\svgo\plugins\removeNonInheritableGroupAttrs.js132878850106958489 0
@@ -3519,7 +3520,6 @@
 153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\plugin132878850095083358 1
 194C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\source-map-support\node_modules\source-map\package.json132878850090833344 0
 191C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\source-map-support\node_modules\source-map\README.md132878850092323346 0
-166C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\keys.js132878850128974552 0
 195C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\source-map-support\node_modules\source-map\source-map.js132878850095113339 0
 161C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\events\tests\errors.js132878850096093343 0
 179C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\abortcontroller-polyfill\src\polyfill.js132878850099873351 0
@@ -9877,6 +9877,7 @@
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\flat-map.js132878850122904575 0
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\for-each.js132878850123484571 0
 170C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\includes.js132878850125534553 0
+166C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\keys.js132878850128974552 0
 167C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\browserify-aes\modes\cfb8.js132878850102183360 0
 175C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\last-index-of.js132878850129184561 0
 171C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\core-js\es\instance\match-all.js132878850129944606 0
@@ -10699,7 +10700,7 @@
 179C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\decorators.js132878850112968461 0
 176C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\details.js132878850112988477 0
 186C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\deviceorientation.js132878850113008483 0
-149C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.2cdaf7bc.css132880404665235826 0
+149C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.2cdaf7bc.css132880421388067474 0
 175C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\dnssec.js132878850113138480 0
 181C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\do-not-track.js132878850113168491 0
 192C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js132878850113228489 0
@@ -12078,7 +12079,7 @@
 184C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\call.js132878850097463353 0
 185C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\class.js132878850098293345 0
 187C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\control.js132878850098993351 0
-153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.2cdaf7bc.css.map132880404665245822 0
+153C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.2cdaf7bc.css.map132880421388087469 0
 186C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\export.js132878850100763348 0
 187C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\literal.js132878850103233386 0
 184C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@parcel\babel-ast-utils\test\fixtures\loop.js132878850103428463 0
@@ -12203,7 +12204,7 @@
 176C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\definitions\utils.js132878850107038486 0
 182C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\converters\toIdentifier.js132878850106018469 0
 181C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\converters\valueToNode.js132878850106358476 0
-152C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.e37f48ea.js.map132880413163942925 0
+152C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\dist\index.e37f48ea.js.map132880426892666280 0
 174C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\constants\index.js132878850105228462 0
 184C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\constants\generated\index.js132878850105038486 0
 188C:\Users\Jose Angel\OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey\Documents\Projects\Sort_visualizer\node_modules\@babel\types\lib\comments\inheritInnerComments.js132878850104338467 0
