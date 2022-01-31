@@ -528,6 +528,8 @@ var _runtime = require("regenerator-runtime/runtime"); // Polyfilling async awai
 var _regeneratorRuntime = require("regenerator-runtime");
 var _buttonsViewJs = require("./views/buttonsView.js");
 var _buttonsViewJsDefault = parcelHelpers.interopDefault(_buttonsViewJs);
+var _optionsViewJs = require("./views/optionsView.js");
+var _optionsViewJsDefault = parcelHelpers.interopDefault(_optionsViewJs);
 // if (module.hot) {
 //   module.hot.accept();
 // }
@@ -543,23 +545,29 @@ const controlCreateArray = function() {
 };
 const controlShuffleArray = function() {
     _modelJs.shuffleArray();
-    _sortViewJsDefault.default.update(_modelJs.state.array);
+    // sortView.update(model.state.array);
+    _sortViewJsDefault.default.render(_modelJs.state.array);
+    _modelJs.clearArrayAnimation();
+};
+const controlChangeCurrentAlgorithm = function(id) {
+    // console.log(document.querySelector("#current-algorithm").id);
+    // model.changeCurrentAlgorithm(document.querySelector("#current-algorithm").id);
+    _modelJs.changeCurrentAlgorithm(id);
 };
 const controlSortArray = function() {
-    // model["bubbleSort"]();
     _modelJs[`${_modelJs.state.currentAlg}`]();
     _sortViewJsDefault.default.renderAnimations(_modelJs.state.arrayAnimations);
     _modelJs.clearArrayAnimation();
 };
 const init = function() {
     controlCreateArray();
+    _optionsViewJsDefault.default.addHandlerSelectAlgorithm(controlChangeCurrentAlgorithm);
     _buttonsViewJsDefault.default.addHandlerButtonSort(controlSortArray);
     _buttonsViewJsDefault.default.addHandlerButtonShuffle(controlShuffleArray);
 };
 init();
-console.log("siuuuu");
 
-},{"core-js/modules/web.immediate.js":"49tUX","./model.js":"Y4A21","./views/sortView.js":"hucv9","regenerator-runtime/runtime":"dXNgZ","regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./views/buttonsView.js":"g7qU8"}],"49tUX":[function(require,module,exports) {
+},{"core-js/modules/web.immediate.js":"49tUX","./model.js":"Y4A21","./views/sortView.js":"hucv9","regenerator-runtime/runtime":"dXNgZ","regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./views/buttonsView.js":"g7qU8","./views/optionsView.js":"9vmQo"}],"49tUX":[function(require,module,exports) {
 var $ = require('../internals/export');
 var global = require('../internals/global');
 var task = require('../internals/task');
@@ -1620,7 +1628,13 @@ parcelHelpers.export(exports, "shuffleArray", ()=>shuffleArray
 );
 parcelHelpers.export(exports, "clearArrayAnimation", ()=>clearArrayAnimation
 );
+parcelHelpers.export(exports, "changeCurrentAlgorithm", ()=>changeCurrentAlgorithm
+);
 parcelHelpers.export(exports, "bubbleSort", ()=>bubbleSort
+);
+parcelHelpers.export(exports, "selectionSort", ()=>selectionSort
+);
+parcelHelpers.export(exports, "insertionSort", ()=>insertionSort
 );
 var _regeneratorRuntime = require("regenerator-runtime");
 var _configJs = require("./config.js");
@@ -1640,8 +1654,12 @@ const shuffleArray = function() {
 const clearArrayAnimation = function() {
     state.arrayAnimations = [];
 };
+const changeCurrentAlgorithm = function(curAlg) {
+    state.currentAlg = curAlg;
+};
 const bubbleSort = function() {
-    state.currentAlg = "bubbleSort";
+    // state.currentAlg = "bubbleSort";
+    console.log("bubbleSort");
     const sizeArr = state.array.length;
     for(let i = 0; i < sizeArr; i++){
         for(let j = 0; j < sizeArr - i - 1; j++)// [a[m], a[n]] = [a[n], a[m]]
@@ -1658,6 +1676,44 @@ const bubbleSort = function() {
     }
     console.log(state.array);
     console.log(state.arrayAnimations);
+};
+const selectionSort = function() {
+    console.log("selectionSort");
+    let indCurMin;
+    for(let i = 0; i < state.array.length; i++){
+        indCurMin = i;
+        for(let j = 1 + i; j < state.array.length; j++)if (state.array[j] < state.array[indCurMin]) indCurMin = j;
+        if (i != indCurMin) {
+            state.arrayAnimations.push([
+                i,
+                indCurMin
+            ]);
+            [state.array[i], state.array[indCurMin]] = [
+                state.array[indCurMin],
+                state.array[i], 
+            ];
+        }
+    }
+    console.log(state.array);
+};
+const insertionSort = function() {
+    console.log("insertionSort");
+    let i, key, j;
+    for(i = 1; i < state.array.length; i++){
+        key = state.array[i];
+        j = i;
+        while(j > 0 && state.array[j - 1] > key){
+            state.arrayAnimations.push([
+                j,
+                j - 1
+            ]);
+            state.array[j] = state.array[j - 1];
+            j--;
+        }
+        state.array[j] = key;
+    }
+    console.log("insertion sort");
+    console.log(state.array);
 };
 
 },{"regenerator-runtime":"dXNgZ","./config.js":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXNgZ":[function(require,module,exports) {
@@ -2247,8 +2303,8 @@ parcelHelpers.export(exports, "NUM_ELEMENTS", ()=>NUM_ELEMENTS
 );
 parcelHelpers.export(exports, "ANIMATION_SPEED_MS", ()=>ANIMATION_SPEED_MS
 );
-const NUM_ELEMENTS = 10;
-const ANIMATION_SPEED_MS = 2;
+const NUM_ELEMENTS = 50;
+const ANIMATION_SPEED_MS = 20;
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
@@ -2292,6 +2348,7 @@ class SortView {
     _widthPerElement = this._widthContainer / _configJs.NUM_ELEMENTS;
     _data;
     render(data) {
+        this._parentElement.innerHTML = "";
         this._data = data;
         const markup = this._generateMarkup(data);
         this._parentElement.insertAdjacentHTML("afterbegin", markup);
@@ -2300,11 +2357,13 @@ class SortView {
         const allEl = [
             ...document.querySelectorAll(".element")
         ];
-        console.log(allEl);
-        console.log(this._widthContainer);
-        console.log(this._widthPerElement);
+        // console.log(allEl);
+        // console.log(this._widthContainer);
+        // console.log(this._widthPerElement);
+        // console.log("siuuu");
         arrAnimation.forEach((mov, i)=>{
             setTimeout(function() {
+                // allEl[mov[0]].classList.toggle("element--current");
                 let el1 = Number.parseFloat(allEl[mov[0]].style.height, 10);
                 let el2 = Number.parseFloat(allEl[mov[1]].style.height, 10);
                 // console.log(i);
@@ -2312,6 +2371,7 @@ class SortView {
                     `${el2}px`,
                     `${el1}px`, 
                 ];
+            // allEl[mov[0]].classList.toggle("element--current");
             }, i * _configJs.ANIMATION_SPEED_MS);
         });
     }
@@ -2322,7 +2382,7 @@ class SortView {
     _generateMarkupElement(indexArr) {
         return `
       <div class="element" style="left: ${indexArr * _configJs.NUM_ELEMENTS}%; width:
-       ${this._widthPerElement}px; height: ${(indexArr + 1) * this._heightPerElement}px ;"></div>`;
+       ${this._widthPerElement / this._widthContainer * 100}%; height: ${(indexArr + 1) * this._heightPerElement}px ;"></div>`;
     }
     update(data) {
         this._data = data;
@@ -2361,6 +2421,27 @@ class ButtonsView {
 }
 exports.default = new ButtonsView();
 
-},{"../config.js":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["ddCAb","aenu9"], "aenu9", "parcelRequirefb39")
+},{"../config.js":"k5Hzs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9vmQo":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _regeneratorRuntime = require("regenerator-runtime");
+class OptionsViews {
+    _parentElement = document.querySelector(".options");
+    addHandlerSelectAlgorithm(handler) {
+        this._parentElement.addEventListener("click", function(e) {
+            const btn = e.target.closest(".btn--option");
+            if (!btn) return;
+            const titleAlgorithm = document.querySelector("#current-algorithm");
+            titleAlgorithm.textContent = btn.textContent;
+            handler(btn.id);
+        });
+    }
+    passCurrentAlgorithm() {
+        return document.querySelector("#current-algorithm").id;
+    }
+}
+exports.default = new OptionsViews();
+
+},{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["ddCAb","aenu9"], "aenu9", "parcelRequirefb39")
 
 //# sourceMappingURL=index.e37f48ea.js.map

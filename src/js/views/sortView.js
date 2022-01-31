@@ -18,6 +18,7 @@ class SortView {
   _data;
 
   render(data) {
+    this._parentElement.innerHTML = "";
     this._data = data;
     const markup = this._generateMarkup(data);
     this._parentElement.insertAdjacentHTML("afterbegin", markup);
@@ -25,12 +26,14 @@ class SortView {
 
   renderAnimations(arrAnimation) {
     const allEl = [...document.querySelectorAll(".element")];
-    console.log(allEl);
-    console.log(this._widthContainer);
-    console.log(this._widthPerElement);
+    // console.log(allEl);
+    // console.log(this._widthContainer);
+    // console.log(this._widthPerElement);
+    // console.log("siuuu");
 
     arrAnimation.forEach((mov, i) => {
       setTimeout(function () {
+        // allEl[mov[0]].classList.toggle("element--current");
         let el1 = Number.parseFloat(allEl[mov[0]].style.height, 10);
 
         let el2 = Number.parseFloat(allEl[mov[1]].style.height, 10);
@@ -40,6 +43,7 @@ class SortView {
           `${el2}px`,
           `${el1}px`,
         ];
+        // allEl[mov[0]].classList.toggle("element--current");
       }, i * ANIMATION_SPEED_MS);
     });
   }
@@ -51,7 +55,7 @@ class SortView {
   _generateMarkupElement(indexArr) {
     return `
       <div class="element" style="left: ${indexArr * NUM_ELEMENTS}%; width:
-       ${this._widthPerElement}px; height: ${
+       ${(this._widthPerElement / this._widthContainer) * 100}%; height: ${
       (indexArr + 1) * this._heightPerElement
     }px ;"></div>`;
   }

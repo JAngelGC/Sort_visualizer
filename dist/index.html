@@ -28,14 +28,27 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li class="title--header">Sorter Visualizer</li>
-          <li class="options">Algorithms</li>
+          <li class="list-item title--options options">
+            Algorithms
+            <ul class="nav-list-drop">
+              <li class="title--algorithm btn--option" id="bubbleSort">
+                Bubble Sort
+              </li>
+              <li class="title--algorithm btn--option" id="selectionSort">
+                Selection Sort
+              </li>
+              <li class="title--algorithm btn--option" id="insertionSort">
+                Insertion Sort
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main class="main">
       <div class="container">
-        <h1 class="title--algorithm">Bubble Sort</h1>
+        <h1 class="title--algorithm" id="current-algorithm">Bubble Sort</h1>
         <div class="container--sort">
           <!-- <div class="element" style="left: 0%; width: 10%; height: 10%;"></div>
                 <div class="element" style="left: 10%; width: 10%; height: 20%;"></div>
